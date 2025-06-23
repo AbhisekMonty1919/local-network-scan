@@ -1,2 +1,29 @@
 # local-network-scan
-nmapscan
+Nmap Scan 
+
+Zenmap was already installed on my device
+
+what steps i followed
+1. opened cmd 
+2. given the command -ipconfig and got the IPV4 address of my device 
+3. copied and pasted the IPV4 on Zenmap 
+4. got the informations of the open ports. which was given below
+
+--------------------------------------------------------------------------------------
+
+OUTPUT -
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 21:37 India Standard Time
+Nmap scan report for 192.168.43.74
+Host is up (0.00085s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.48 second
+
+-----------------------------------------------------------------------------------------
